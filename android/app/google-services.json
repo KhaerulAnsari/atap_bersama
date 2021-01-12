@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "994822571604",
+    "firebase_url": "https://atap-bersamaa.firebaseio.com",
+    "project_id": "atap-bersamaa",
+    "storage_bucket": "atap-bersamaa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:994822571604:android:54ec4006a03ad786720fc1",
+        "android_client_info": {
+          "package_name": "com.example.atap_bersama"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "994822571604-4jnuee3vuoebprudva24hkhe5errfr3p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsRuWMXeCHsJ4EHiWeIpOIVmwXIyteZS4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "994822571604-4jnuee3vuoebprudva24hkhe5errfr3p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
