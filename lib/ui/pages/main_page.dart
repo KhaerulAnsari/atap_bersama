@@ -39,7 +39,9 @@ class _MainPageState extends State<MainPage> {
             },
             children: <Widget>[
               HomePage(),
-              Center(child: Text("Person"),),
+              Center(
+                child: Text("Person"),
+              ),
             ],
           ),
           createCustomBottomNavBar(),
@@ -99,13 +101,7 @@ class _MainPageState extends State<MainPage> {
               currentIndex: bottomNavbarIndex,
               items: [
                 BottomNavigationBarItem(
-                  title: Text(
-                    "Home",
-                    style: GoogleFonts.raleway(
-                      fontSize: 13,
-                      fontWeight: FontWeight.w600,
-                    ),
-                  ),
+                  label: "Home",
                   icon: Container(
                     margin: EdgeInsets.only(bottom: 6),
                     height: 20,
@@ -117,13 +113,7 @@ class _MainPageState extends State<MainPage> {
                   ),
                 ),
                 BottomNavigationBarItem(
-                  title: Text(
-                    "Person",
-                    style: GoogleFonts.raleway(
-                      fontSize: 13,
-                      fontWeight: FontWeight.w600,
-                    ),
-                  ),
+                  label: "Person",
                   icon: Container(
                     margin: EdgeInsets.only(bottom: 6),
                     height: 20,
